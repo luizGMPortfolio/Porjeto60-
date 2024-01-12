@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontes/BreeSerif-Regular.ttf">
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+    <title>cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>...</h1>
+    </header>
+    <section class="section">
+        <div class="container">
+
+            <label for="nomes">Nome</label>
+            <input type="text" name="nomes" id="nomes" placeholder="Digite o nome" required>
+
+            <label for="numero">Numero</label>
+            <input type="number" name="numero" id="numero" placeholder="Digite seu telefone" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite a senha" required>
+
+        </div>
+        <form class="container1">
+            <button onclick="cadastro('newUser')" type="submit" id="btn-logincad">Enviar</button>    
+        </form>
+    </section>
+    <footer>
+        <ul id='messages'></ul>
+        <div id='status'></div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/fontes/BreeSerif-Regular.ttf">
+  <title>Contatos</title>
+  <link rel="stylesheet" type="text/css" href="css/conversas.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <h1 class="IA"><marquee>5 mensagens novas de joão e 1 mensagem de lurdes  </marquee></h1>
+    <div class="botoes">
+      <a href="home.html" class="voltar">
+        <img src="images/cabeçalho/volta.png" alt="voltar">
+      </a>
+      <center><img src="images/cabeçalho/ajuda.png" alt=""></center>
+      <button class="Add" onclick="TelaContato()">
+        <img src="images/cabeçalho/add.png" alt="mais">
+      </button>
+    </div>
+  </header>
+
+  <div id="container">
+  </div>
+
+  <main class="section1">
+    <ul id="lista">
+      <li>
+        <a href="Conversa.html" class="pessoas">
+          <div class="foto"><img src="images/conversas/vieo1.png" alt=""></div>
+          <div class="perfil">
+            <h2 class="nome">joão</h2>
+            <div class="mensagens">
+              <div class="circulo"></div>
+              <span> 5 mensagens novas</span>
+            </div>
+          </div>
+        </a>
+        </li>
+        <li>
+          <a href="Conversa.html" class="pessoas">
+            <div class="foto"><img src="images/conversas/veio2.png" alt=""></div>
+            <div class="perfil">
+              <h2 class="nome">lurdes</h2>
+              <div class="mensagens">
+                <div class="circulo"></div>
+                <span> 1 mensagem nova</span>
+              </div>
+            </div>
+          </a>
+          </li>
+          <li>
+            <a href="Conversa.html" class="pessoas">
+              <div class="foto"><img src="images/conversas/veio3.png" alt=""></div>
+              <div class="perfil">
+                <h2 class="nome">Jorge</h2>
+                <div class="mensagens">
+                  <div class="circuloCinza"></div>
+                  <span> sem mensagens</span>
+                </div>
+              </div>
+            </a>
+            </li>
+            <li>
+              <a href="Conversa.html" class="pessoas">
+                <div class="foto"><img src="images/conversas/veio4.png" alt=""></div>
+                <div class="perfil">
+                  <h2 class="nome">Marcia</h2>
+                  <div class="mensagens">
+                    <div class="circuloCinza"></div>
+                    <span> sem mensagens</span>
+                  </div>
+                </div>
+              </a>
+              </li>
+  
+
+
+    </ul>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

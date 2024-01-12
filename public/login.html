@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontes/BreeSerif-Regular.ttf">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <title>login</title>
+</head>
+
+<body>
+    <header>
+        <h1>...</h1>
+    </header>
+    <section class="section">
+        <form class="container">
+
+            <label for="nomes">Nome</label>
+            <input type="text" name="nomes" id="nomes" placeholder="Digite seu nome" required>
+            <label for="senha">Senha</label>
+            <input type="text" name="senha" id="senha" placeholder="Digite sua senha" required>
+            <a href="#" target="_brank" id="esqueceu"> Esqueceu sua senha? </a>
+        </form>
+
+        <div class="container1">
+                <button type="submit" id="btn-login" onclick="Rehome()">login</button>
+                <button onclick="Recad()" id="btn-cadastro">Cadastre-se</button>
+        </div>
+        
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>conversas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/conversa.css">
+
+    </head>
+    <body>
+
+        <header class="cabeçalho">
+            <h1 class="IA">...</h1>
+            <div class="botoes">
+                <a href="Conversas.html" class="voltar">
+                    <img src="images/cabeçalho/volta.png" alt="voltar">
+                </a>
+                <a href="" class="ligar">
+                    <img src="images/cabeçalho/telefone.png" alt="ligar">
+                </a>
+
+            </div>      
+        </header> 
+
+
+        <ul class="mensagens" id="mensagens">
+            <li>  
+                <div class="pessoa">
+                    <header class="headname">
+                        <h2 class="nome">Jorge</h2>
+                    </header>
+                    <div class="dispmsn">
+                        <button class="audio">
+                            <img src="images/playheader.png" alt="play">
+                        </button>
+                        <p>olá Neide</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="pessoa">
+                    <center><hr></center>
+                    <div class="dispmsn">
+                        <button class="audio">
+                            <img src="images/playheader.png" alt="play">
+                        </button>
+                        <p>Como está?</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="voce">
+                    <header class="headname1">
+                        <h2 class="nome">Você</h2>
+                    </header>
+                    <div class="dispmsn">
+                        <button class="audio">
+                            <img src="images/playheader.png" alt="play">
+                        </button>
+                        <p>bom dia Jorge</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="voce">
+                    <div class="dispmsn">
+                        <button class="audio">
+                            <img src="images/playheader.png" alt="play">
+                        </button>
+                        <p>estou ótima</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="voce">
+                    <div class="dispmsn">
+                        <button class="audio">
+                            <img src="images/playheader.png" alt="play">
+                        </button>
+                        <p>como andam os netos?</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <footer>
+            <div class="rodapé">
+                <button class="fotos">
+                    <img src="images/camera.png" alt="camera">
+                </button>
+                <input type="text" id="msn">
+                <button class="enviar" onclick="NewMensage()">
+                    <img src="images/playfooter.png" alt="">
+                </button>
+            </div>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>     
+</html>

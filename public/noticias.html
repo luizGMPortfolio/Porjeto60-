@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/fontes/BreeSerif-Regular.ttf">
+  <link rel="stylesheet" type="text/css" href="css/noticias.css">
+
+
+  <title>Noticias</title>
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <h1 class="IA">...</h1>
+    <div class="botoes">
+      <a href="home.html" class="voltar">
+        <img src="images/cabeçalho/volta.png" alt="voltar">
+      </a>
+    </div>
+  </header>
+  <main>
+    <ul id="bloco">
+      <h1>Gerais</h1>
+      <li id="noticia">
+        <img src="images/noticias/hebe.webp" class="capa">
+        <p>Quem é Lilian Gonçalves,
+          dona de joias de Hebe Camargo:
+          empresária de SP é filha de
+          Nelson Gonçalves e chamada de 'Rainha da Noite'</p>
+      </li>
+      <li id="noticia">
+        <img src="images/noticias/marvel.webp" class="capa">
+        <p>'As Marvels' se contenta em ser medianamente bom, como tanto gosta a Marvel</p>
+      </li>
+    </ul>
+  </main>
+  <footer id="rodape">
+    <center>
+      <button id="geral" class="clicado" onclick="Geral()"><img src="images/noticias/geralVerde.png"></button>
+      <button id="futebol" onclick="Esportes()"><img src="images/noticias/futebolCinza.png"></button>
+      <button id="internacional" onclick="Internacional()"><img src="images/noticias/globoCinza.png"></button>
+      <button id="politica" onclick="Politica()"><img src="images/noticias/politicaCinza.png"></button>
+      <button onclick="Tv()"><img src="images/noticias/tvCinza.png"></button>
+    </center>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
